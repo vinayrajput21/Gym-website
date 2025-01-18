@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin: 32px;
+        padding: 1px;
+        background: url('dotted.jpg');
+        height: 1600px;
+    }
+
+    h1 {
+        margin-top: 82px;
+        text-decoration: underline;
+        font-size: 40px;
+    }
+
+    img {
+        height: 450px;
+        width: 487px;
+    }
+
+    #para {
+        margin-top: -435px;
+        margin-left: 505px;
+        font-size: 28px;
+
+    }
+
+    #sara {
+        font-size: 28px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: -64px;
+        margin-left: -34px;
+        width: 106%;
+        background-color: grey;
+        padding: 11px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 66px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        margin-left: -57px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    .container {
+
+        border: 6px solid rgb(70, 68, 68);
+
+        margin: 25px 30px;
+        padding: 68px;
+        width: 68%;
+        height: 28%;
+        border-radius: 53px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 800px;
+        padding: 2px;
+        margin-top: 16px;
+        margin-left: 29px;
+        border-radius: 8px;
+        font-size: 29px;
+        background-color: white;
+    }
+
+    .labeling {
+
+        margin-left: 28px;
+        margin-top: 11px;
+        width: 806px;
+        background-color: rgb(250, 246, 246);
+        color: grey;
+        padding: 4px 3px;
+        font-size: 28px;
+        cursor: pointer;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    .btn {
+
+        margin-left: 28px;
+        margin-top: 11px;
+        width: 809px;
+        background-color: black;
+        color: white;
+        padding: 4px 3px;
+        border: 3px solid grey;
+        font-size: 26px;
+        cursor: pointer;
+        border-radius: 7px;
+    }
+</style>
+
+<body>
+    <header class="navbar">
+        <div>
+            <li><a href="https://www.decathlon.in">Accessories</a></li>
+            <li><a href="https://www.amazon.in">Shop</a></li>
+            <li><a href="#">Enroll Now </a></li>
+            <li><a href="https://www.muscleblaze.com">Nutrition</a></li>
+        </div>
+
+    </header>
+    <h1> OVERVIEW :- </h1>
+    <img src="men2.jpg" alt=" error">
+    <p id="para">
+        We are here giving the best exercise and fitness curriculum.
+        In our gym you can find one of the machinery
+        and professional trainers.
+        <br>
+        <br>
+        We are providing a lot programs over physical fitness.
+        <br>
+        you will experience improved physique and stronger body
+        muscles.
+        <br>
+        <br>
+        it also helps you to improve mental health
+        and also makes you thinking ability stronger.
+    </p>
+    <h1>
+        <br>
+        FEES / FREE TRIALS :-
+    </h1>
+    <p id="sara">
+        Fees structure depends upon the programs that you will be
+        chossing.
+        <br>
+        free trials are available for 7 days only.
+        <br>
+        If you want to enjoy this service enroll now.
+        <br>
+        <br>
+        Timing :- 6am to 10am & 5pm to 9pm
+    </p>
+    <h1>
+        ENROLL NOW :-
+    </h1>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your contact no. ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your email ">
+            </div>
+            <label for="fitness"></label>
+            <select class="labeling" name="Programs" id="fitness">
+                <option value="Pf">Personal trainer</option>
+                <option value="gt">Group program</option>
+                <option value="wl">dieting special</option>
+                <option value="y">Yoga</option>
+                <option value="ws">Women special </option>
+            </select>
+            <div class="labeling">
+                I am not a robot <input type="checkbox" name=" I am not a robot">
+            </div>
+            <button class="btn"> Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

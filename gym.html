@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+       background: url('1459397.jpg'); 
+        height: 2100px;
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+
+    .left img {
+        width: 390px;
+        height: 253px;
+        /* filter: invert(100%); */
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 63%;
+        margin: 27px auto;
+    }
+
+    .btn {
+
+        margin: 22px;
+        color: aliceblue;
+        font-size: 31px;
+        border: 5px solid grey;
+        background-color: black;
+        border-radius: 26px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: brown;
+    }
+
+
+    .navbar {
+        display: inline-block;
+        margin: -2px;
+        margin-left: 180px;
+        width: 100%;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: underline;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .container {
+        border: 6px solid white;
+        margin: 466px 72px;
+        padding: 111px;
+        width: 14%;
+        border-radius: 61px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="vinay.jpg" alt="">
+            <div> </div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="gymhome.html">Home</a></li>
+                <li><a href="gymprogram.html">Programs</a></li>
+                <li><a href="gymgallery.html">Gallery</a></li>
+                <li><a href="gymcontact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <marquee direction="up"> NEED THIS PHYSIQUE ?
+                <button class="btn"><a href="gymhome.html"> JOIN US</a> </button>
+            </marquee>
+        </div>
+
+
+    </header>
+
+
+</body>
+
+</html>
